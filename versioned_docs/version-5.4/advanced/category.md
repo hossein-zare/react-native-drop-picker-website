@@ -19,7 +19,10 @@ const [items, setItems] = useState([
 The children have the parent's `value` as their `parent` key.
 
 :::note
-The items don't need to be sorted, This will be done automatically.
+The items don't need to be sorted into categories since this
+happens automatically.
+Categories will be inserted in the order they are received.
+Lists items will be inserted in the list in reverse order.
 :::
 
 ## Props
